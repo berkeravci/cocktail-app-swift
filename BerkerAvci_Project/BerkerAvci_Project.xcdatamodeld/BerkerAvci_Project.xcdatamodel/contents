@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21513" systemVersion="21G419" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Cocktail" representedClassName="Cocktail" syncable="YES">
+        <attribute name="amount1" optional="YES" attributeType="String"/>
+        <attribute name="amount2" optional="YES" attributeType="String"/>
+        <attribute name="amount3" optional="YES" attributeType="String"/>
+        <attribute name="category" optional="YES" attributeType="String"/>
+        <attribute name="garnish" optional="YES" attributeType="String"/>
+        <attribute name="ingredient1" optional="YES" attributeType="String"/>
+        <attribute name="ingredient2" optional="YES" attributeType="String"/>
+        <attribute name="ingredient3" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="origin" optional="YES" attributeType="String"/>
+        <attribute name="preperation" optional="YES" attributeType="String"/>
+        <attribute name="unit1" optional="YES" attributeType="String"/>
+        <attribute name="unit2" optional="YES" attributeType="String"/>
+        <attribute name="unit3" optional="YES" attributeType="String"/>
+    </entity>
+</model>

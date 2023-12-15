@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A25695DF2A387A1500FE6114 /* DetailListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25695DE2A387A1500FE6114 /* DetailListVC.swift */; };
+		A25695E52A38A15B00FE6114 /* sound2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A25695E42A38A15B00FE6114 /* sound2.mp3 */; };
+		A2AC769A2A383C560006E898 /* ListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AC76992A383C560006E898 /* ListVC.swift */; };
+		A2AC769E2A384E780006E898 /* Cocktailss.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AC769D2A384E780006E898 /* Cocktailss.swift */; };
+		A2AC76A72A3858DF0006E898 /* Cocktail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AC76A52A3858DF0006E898 /* Cocktail.swift */; };
+		A2AC76A82A3858DF0006E898 /* Cocktail+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AC76A62A3858DF0006E898 /* Cocktail+CoreDataProperties.swift */; };
+		A2F4B4602A3395640000F36F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F4B45F2A3395640000F36F /* AppDelegate.swift */; };
+		A2F4B4622A3395640000F36F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F4B4612A3395640000F36F /* SceneDelegate.swift */; };
+		A2F4B4642A3395640000F36F /* FirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F4B4632A3395640000F36F /* FirstVC.swift */; };
+		A2F4B4672A3395640000F36F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2F4B4652A3395640000F36F /* Main.storyboard */; };
+		A2F4B46A2A3395640000F36F /* BerkerAvci_Project.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A2F4B4682A3395640000F36F /* BerkerAvci_Project.xcdatamodeld */; };
+		A2F4B46C2A3395650000F36F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2F4B46B2A3395650000F36F /* Assets.xcassets */; };
+		A2F4B46F2A3395650000F36F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2F4B46D2A3395650000F36F /* LaunchScreen.storyboard */; };
+		A2F4B4772A339BFC0000F36F /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F4B4762A339BFC0000F36F /* MainVC.swift */; };
+		A2F4B4792A33A4D90000F36F /* CustomSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F4B4782A33A4D90000F36F /* CustomSegue.swift */; };
+		A2F4B47B2A33A80F0000F36F /* AddVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F4B47A2A33A80F0000F36F /* AddVC.swift */; };
+		A2F4B47D2A34029F0000F36F /* cocktails.json in Resources */ = {isa = PBXBuildFile; fileRef = A2F4B47C2A34029F0000F36F /* cocktails.json */; };
+		A2F4B47F2A347F550000F36F /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F4B47E2A347F550000F36F /* DataSource.swift */; };
+		A2F4B4832A3480C60000F36F /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F4B4822A3480C60000F36F /* SwiftyJSON.swift */; };
+		A2F4B4852A34A04A0000F36F /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F4B4842A34A04A0000F36F /* Ingredient.swift */; };
+		A2F4B4872A34B21C0000F36F /* CustomCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F4B4862A34B21C0000F36F /* CustomCollectionReusableView.swift */; };
+		A2F4B4892A34B22C0000F36F /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F4B4882A34B22C0000F36F /* CustomCollectionViewCell.swift */; };
+		A2F4B48B2A34C67D0000F36F /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F4B48A2A34C67D0000F36F /* DetailVC.swift */; };
+		AF959C59329BA9A5044FBA6C /* Pods_BerkerAvci_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 802C83ED2E95132652E35A7C /* Pods_BerkerAvci_Project.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		802C83ED2E95132652E35A7C /* Pods_BerkerAvci_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BerkerAvci_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		822B84D77C2B71338C57581C /* Pods-BerkerAvci_Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BerkerAvci_Project.release.xcconfig"; path = "Target Support Files/Pods-BerkerAvci_Project/Pods-BerkerAvci_Project.release.xcconfig"; sourceTree = "<group>"; };
+		A25695DE2A387A1500FE6114 /* DetailListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailListVC.swift; sourceTree = "<group>"; };
+		A25695E42A38A15B00FE6114 /* sound2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound2.mp3; sourceTree = "<group>"; };
+		A2AC76992A383C560006E898 /* ListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListVC.swift; sourceTree = "<group>"; };
+		A2AC769D2A384E780006E898 /* Cocktailss.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cocktailss.swift; sourceTree = "<group>"; };
+		A2AC76A52A3858DF0006E898 /* Cocktail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cocktail.swift; sourceTree = "<group>"; };
+		A2AC76A62A3858DF0006E898 /* Cocktail+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cocktail+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A2F4B45C2A3395640000F36F /* BerkerAvci_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BerkerAvci_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2F4B45F2A3395640000F36F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A2F4B4612A3395640000F36F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A2F4B4632A3395640000F36F /* FirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVC.swift; sourceTree = "<group>"; };
+		A2F4B4662A3395640000F36F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2F4B4692A3395640000F36F /* BerkerAvci_Project.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BerkerAvci_Project.xcdatamodel; sourceTree = "<group>"; };
+		A2F4B46B2A3395650000F36F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2F4B46E2A3395650000F36F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2F4B4702A3395650000F36F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2F4B4762A339BFC0000F36F /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		A2F4B4782A33A4D90000F36F /* CustomSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegue.swift; sourceTree = "<group>"; };
+		A2F4B47A2A33A80F0000F36F /* AddVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddVC.swift; sourceTree = "<group>"; };
+		A2F4B47C2A34029F0000F36F /* cocktails.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cocktails.json; sourceTree = "<group>"; };
+		A2F4B47E2A347F550000F36F /* DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		A2F4B4822A3480C60000F36F /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		A2F4B4842A34A04A0000F36F /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
+		A2F4B4862A34B21C0000F36F /* CustomCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionReusableView.swift; sourceTree = "<group>"; };
+		A2F4B4882A34B22C0000F36F /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		A2F4B48A2A34C67D0000F36F /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		ED3CEB63948A4882EE7CAE11 /* Pods-BerkerAvci_Project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BerkerAvci_Project.debug.xcconfig"; path = "Target Support Files/Pods-BerkerAvci_Project/Pods-BerkerAvci_Project.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2F4B4592A3395640000F36F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF959C59329BA9A5044FBA6C /* Pods_BerkerAvci_Project.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48BA45887B09847A2A0D855D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				802C83ED2E95132652E35A7C /* Pods_BerkerAvci_Project.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		811AA1E8183669E7FD4E5C40 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED3CEB63948A4882EE7CAE11 /* Pods-BerkerAvci_Project.debug.xcconfig */,
+				822B84D77C2B71338C57581C /* Pods-BerkerAvci_Project.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A2F4B4532A3395640000F36F = {
+			isa = PBXGroup;
+			children = (
+				A2AC76A52A3858DF0006E898 /* Cocktail.swift */,
+				A2AC76A62A3858DF0006E898 /* Cocktail+CoreDataProperties.swift */,
+				A2F4B45E2A3395640000F36F /* BerkerAvci_Project */,
+				A2F4B45D2A3395640000F36F /* Products */,
+				811AA1E8183669E7FD4E5C40 /* Pods */,
+				48BA45887B09847A2A0D855D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A2F4B45D2A3395640000F36F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2F4B45C2A3395640000F36F /* BerkerAvci_Project.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2F4B45E2A3395640000F36F /* BerkerAvci_Project */ = {
+			isa = PBXGroup;
+			children = (
+				A2F4B45F2A3395640000F36F /* AppDelegate.swift */,
+				A2F4B4612A3395640000F36F /* SceneDelegate.swift */,
+				A2F4B4632A3395640000F36F /* FirstVC.swift */,
+				A2AC76992A383C560006E898 /* ListVC.swift */,
+				A2F4B47A2A33A80F0000F36F /* AddVC.swift */,
+				A25695E42A38A15B00FE6114 /* sound2.mp3 */,
+				A25695DE2A387A1500FE6114 /* DetailListVC.swift */,
+				A2F4B4762A339BFC0000F36F /* MainVC.swift */,
+				A2F4B48A2A34C67D0000F36F /* DetailVC.swift */,
+				A2F4B4862A34B21C0000F36F /* CustomCollectionReusableView.swift */,
+				A2F4B4882A34B22C0000F36F /* CustomCollectionViewCell.swift */,
+				A2F4B4842A34A04A0000F36F /* Ingredient.swift */,
+				A2AC769D2A384E780006E898 /* Cocktailss.swift */,
+				A2F4B4782A33A4D90000F36F /* CustomSegue.swift */,
+				A2F4B4652A3395640000F36F /* Main.storyboard */,
+				A2F4B46B2A3395650000F36F /* Assets.xcassets */,
+				A2F4B46D2A3395650000F36F /* LaunchScreen.storyboard */,
+				A2F4B4702A3395650000F36F /* Info.plist */,
+				A2F4B4682A3395640000F36F /* BerkerAvci_Project.xcdatamodeld */,
+				A2F4B47C2A34029F0000F36F /* cocktails.json */,
+				A2F4B47E2A347F550000F36F /* DataSource.swift */,
+				A2F4B4822A3480C60000F36F /* SwiftyJSON.swift */,
+			);
+			path = BerkerAvci_Project;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2F4B45B2A3395640000F36F /* BerkerAvci_Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2F4B4732A3395650000F36F /* Build configuration list for PBXNativeTarget "BerkerAvci_Project" */;
+			buildPhases = (
+				46B3D764E1DE12410062B17F /* [CP] Check Pods Manifest.lock */,
+				A2F4B4582A3395640000F36F /* Sources */,
+				A2F4B4592A3395640000F36F /* Frameworks */,
+				A2F4B45A2A3395640000F36F /* Resources */,
+				91243BC3831BD27106616935 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BerkerAvci_Project;
+			productName = BerkerAvci_Project;
+			productReference = A2F4B45C2A3395640000F36F /* BerkerAvci_Project.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2F4B4542A3395640000F36F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					A2F4B45B2A3395640000F36F = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = A2F4B4572A3395640000F36F /* Build configuration list for PBXProject "BerkerAvci_Project" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2F4B4532A3395640000F36F;
+			productRefGroup = A2F4B45D2A3395640000F36F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2F4B45B2A3395640000F36F /* BerkerAvci_Project */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2F4B45A2A3395640000F36F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A25695E52A38A15B00FE6114 /* sound2.mp3 in Resources */,
+				A2F4B46F2A3395650000F36F /* LaunchScreen.storyboard in Resources */,
+				A2F4B46C2A3395650000F36F /* Assets.xcassets in Resources */,
+				A2F4B4672A3395640000F36F /* Main.storyboard in Resources */,
+				A2F4B47D2A34029F0000F36F /* cocktails.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		46B3D764E1DE12410062B17F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BerkerAvci_Project-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91243BC3831BD27106616935 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BerkerAvci_Project/Pods-BerkerAvci_Project-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BerkerAvci_Project/Pods-BerkerAvci_Project-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BerkerAvci_Project/Pods-BerkerAvci_Project-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2F4B4582A3395640000F36F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2F4B4642A3395640000F36F /* FirstVC.swift in Sources */,
+				A2F4B4772A339BFC0000F36F /* MainVC.swift in Sources */,
+				A2F4B4872A34B21C0000F36F /* CustomCollectionReusableView.swift in Sources */,
+				A2F4B4892A34B22C0000F36F /* CustomCollectionViewCell.swift in Sources */,
+				A2F4B4832A3480C60000F36F /* SwiftyJSON.swift in Sources */,
+				A2AC76A72A3858DF0006E898 /* Cocktail.swift in Sources */,
+				A2AC769A2A383C560006E898 /* ListVC.swift in Sources */,
+				A2F4B47B2A33A80F0000F36F /* AddVC.swift in Sources */,
+				A2F4B4602A3395640000F36F /* AppDelegate.swift in Sources */,
+				A25695DF2A387A1500FE6114 /* DetailListVC.swift in Sources */,
+				A2F4B4622A3395640000F36F /* SceneDelegate.swift in Sources */,
+				A2AC769E2A384E780006E898 /* Cocktailss.swift in Sources */,
+				A2F4B4792A33A4D90000F36F /* CustomSegue.swift in Sources */,
+				A2F4B47F2A347F550000F36F /* DataSource.swift in Sources */,
+				A2AC76A82A3858DF0006E898 /* Cocktail+CoreDataProperties.swift in Sources */,
+				A2F4B46A2A3395640000F36F /* BerkerAvci_Project.xcdatamodeld in Sources */,
+				A2F4B4852A34A04A0000F36F /* Ingredient.swift in Sources */,
+				A2F4B48B2A34C67D0000F36F /* DetailVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A2F4B4652A3395640000F36F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2F4B4662A3395640000F36F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2F4B46D2A3395650000F36F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2F4B46E2A3395650000F36F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2F4B4712A3395650000F36F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A2F4B4722A3395650000F36F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2F4B4742A3395650000F36F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED3CEB63948A4882EE7CAE11 /* Pods-BerkerAvci_Project.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PV64D35PG6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BerkerAvci_Project/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.avci.BerkerAvci-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2F4B4752A3395650000F36F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 822B84D77C2B71338C57581C /* Pods-BerkerAvci_Project.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PV64D35PG6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BerkerAvci_Project/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.avci.BerkerAvci-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2F4B4572A3395640000F36F /* Build configuration list for PBXProject "BerkerAvci_Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2F4B4712A3395650000F36F /* Debug */,
+				A2F4B4722A3395650000F36F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2F4B4732A3395650000F36F /* Build configuration list for PBXNativeTarget "BerkerAvci_Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2F4B4742A3395650000F36F /* Debug */,
+				A2F4B4752A3395650000F36F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A2F4B4682A3395640000F36F /* BerkerAvci_Project.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A2F4B4692A3395640000F36F /* BerkerAvci_Project.xcdatamodel */,
+			);
+			currentVersion = A2F4B4692A3395640000F36F /* BerkerAvci_Project.xcdatamodel */;
+			path = BerkerAvci_Project.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A2F4B4542A3395640000F36F /* Project object */;
+}

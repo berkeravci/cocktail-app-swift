@@ -1,0 +1,185 @@
+{
+    "cocktails": [
+        {
+            
+            "name": "Vesper",
+            "category": "Before Dinner Cocktail",
+            "ingredients": [
+                { "unit": "cl", "amount": 6, "ingredient": "Gin" },
+                { "unit": "cl", "amount": 1.5, "ingredient": "Vodka" },
+                { "unit": "cl", "amount": 0.75, "ingredient": "Lillet Blonde" }
+            ],
+            "garnish": "Lemon twist",
+            "preparation": "Shake and strain into a chilled cocktail glass.",
+            "image": "martini",
+            "origin": "England"
+        },
+        {
+            
+            "name": "Negroni",
+            "category": "Before Dinner Cocktail",
+            "ingredients": [
+                { "unit": "cl", "amount": 3, "ingredient": "Gin" },
+                { "unit": "cl", "amount": 3, "ingredient": "Campari" },
+                {
+                    "unit": "cl",
+                    "amount": 3,
+                    "ingredient": "Vermouth",
+                    "label": "Sweet red vermouth"
+                }
+            ],
+            "garnish": "Half an orange slice",
+            "preparation": "Build into old-fashioned glass filled with ice. Stir gently.",
+            "image": "negroni",
+            "origin": "Italy"
+        },
+        {
+            
+            "name": "Spritz Veneziano",
+            "category": "Sparkling Cocktail",
+            "ingredients": [
+                { "unit": "cl", "amount": 6, "ingredient": "Prosecco" },
+                { "unit": "cl", "amount": 4, "ingredient": "Aperol" },
+                { "amount": "1 Splash", "ingredient": "Soda water" }
+            ],
+            "garnish": "Half an orange slice",
+            "preparation": "Build into an old-fashioned glass filled with ice. Top with a splash of soda water.",
+            "image": "spritzveneziano",
+            "origin": "Italy"
+        },
+        {
+            
+            "name": "Old Fashioned",
+            "category": "Before Dinner Cocktail",
+            "ingredients": [
+                {
+                    "unit": "cl",
+                    "amount": 4.5,
+                    "ingredient": "Whiskey",
+                    "label": "Bourbon or rye whiskey"
+                },
+                { "ingredient": "Angostura bitters", "amount": "2 dashes" },
+                { "ingredient": "Sugar", "amount": "1", "label": "Sugar cube" },
+                { "special": "Few dashes plain water" }
+            ],
+            "garnish": "Orange slice and cherry",
+            "preparation": "Place sugar cube in old-fashioned glass and saturate with bitters, add a dash of plain water. Muddle until dissolve. Fill the glass with ice cubes and add whisky.",
+            "image": "oldfashioned",
+            "origin": "United States"
+        },
+        {
+            
+            "name": "Mojito",
+            "category": "Longdrink",
+            "ingredients": [
+                {
+                    "unit": "cl",
+                    "amount": 4,
+                    "ingredient": "White rum",
+                    "label": "White Cuban Rum"
+                },
+                { "ingredient": "Soda water" },
+                { "unit": "cl", "amount": 3, "ingredient": "Lime juice" },
+                { "ingredient": "Mint", "amount": "6", "label": "Mint sprigs" },
+                { "ingredient": "Sugar", "amount": "2 teaspoons", "label": "White sugar" }
+            ],
+            "garnish": "Mint leaves and lemon slice",
+            "preparation": "Muddle mint sprigs with sugar and lime juice. Add splash of soda water and fill glass with cracked ice. Pour rum and top with soda water. Serve with straw.",
+            "image": "mojito",
+            "origin": "Cuba"
+        },
+        {
+            
+            "name": "Horse's Neck",
+            "category": "Longdrink",
+            "ingredients": [
+                { "unit": "cl", "amount": 4, "ingredient": "Cognac" },
+                { "unit": "cl", "amount": 12, "ingredient": "Ginger Ale" },
+                { "special": "Dash of Angostura bitters (optional)" }
+            ],
+            "garnish": "Lemon twist",
+            "preparation": "Build into highball glass with ice cubes. Stir gently. If required, add dashes of Angostura bitters.",
+            "image": "horsesneck",
+            "origin": "United States"
+        },
+        {
+            
+            "name": "Planter's Punch",
+            "category": "Longdrink",
+            "ingredients": [
+                { "unit": "cl", "amount": 4.5, "ingredient": "Dark rum" },
+                { "unit": "cl", "amount": 3.5, "ingredient": "Orange juice" },
+                { "unit": "cl", "amount": 3.5, "ingredient": "Pineapple juice" },
+                { "unit": "cl", "amount": 2, "ingredient": "Lemon juice" },
+                {
+                    "unit": "cl",
+                    "amount": 1,
+                    "ingredient": "Syrup",
+                    "label": "Grenadine"
+                },
+                {
+                    "unit": "cl",
+                    "amount": 1,
+                    "ingredient": "Syrup",
+                    "label": "Sugar syrup"
+                },
+                { "ingredient": "Angostura bitters", "amount": "3 to 4 dashes" }
+            ],
+            "garnish": "Pineapple slice and a cherry",
+            "preparation": "Pour all ingredients, except the bitters, into shaker filled with ice. Shake. Pour into large glass, filled with ice. Add Angostura bitters, “on top”.",
+            "image": "planterspunch",
+            "origin": "Jamaica"
+        },
+        {
+            
+            "name": "Sea Breeze",
+            "category": "Longdrink",
+            "ingredients": [
+                { "unit": "cl", "amount": 4, "ingredient": "Vodka" },
+                { "unit": "cl", "amount": 12, "ingredient": "Cranberry juice" },
+                { "unit": "cl", "amount": 3, "ingredient": "Grapefruit juice" }
+            ],
+            "garnish": "Lime wedge",
+            "preparation": "Build all ingredients in a rock glass filled with ice.",
+            "image": "seabreeze",
+            "origin": "United States"
+        },
+        {
+            
+            "name": "Long Island Iced Tea",
+            "category": "Longdrink",
+            "ingredients": [
+                { "unit": "cl", "amount": 1.5, "ingredient": "Tequila" },
+                { "unit": "cl", "amount": 1.5, "ingredient": "Vodka" },
+                { "unit": "cl", "amount": 1.5, "ingredient": "White rum" },
+                { "unit": "cl", "amount": 1.5, "ingredient": "Triple Sec" },
+                { "unit": "cl", "amount": 1.5, "ingredient": "Gin" },
+                { "unit": "cl", "amount": 2.5, "ingredient": "Lemon juice" },
+                {
+                    "unit": "cl",
+                    "amount": 3.0,
+                    "ingredient": "Syrup",
+                    "label": "Gomme syrup"
+                },
+                { "ingredient": "Cola", "amount": "1 dash" }
+            ],
+            "garnish": "Lemon twist",
+            "preparation": "Add all ingredients into highball glass filled with ice. Stir gently. Serve with straw.",
+            "image": "longisland",
+            "origin": "United States"
+        },
+        {
+            
+            "name": "Mimosa",
+            "category": "Sparkling Cocktail",
+            "ingredients": [
+                { "unit": "cl", "amount": 7.5, "ingredient": "Champagne" },
+                { "unit": "cl", "amount": 7.5, "ingredient": "Orange juice" }
+            ],
+            "garnish": "Optional orange twist",
+            "preparation": "Pour orange juice into flute and gently pour Champagne. Stir gently. Note: Buck's Fizz is a very similar cocktail but made of two parts champagne to one part orange juice.",
+            "image": "mimos",
+            "origin": "France"
+        }
+    ]
+}
